@@ -4,11 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SK Cinematics</title>
+    <link rel="icon" type="image/png" href="assets/img/kevininvert.png">
+    <title>Cinematics</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap&family=Lobster&display=swa"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -22,11 +27,12 @@
     <div class="wrapper">
         <header>
             <nav>
-                <div class="menu-icon" >
+                <div class="menu-icon">
                     <i class="fa fa-bars fa-2x"></i>
                 </div>
                 <div class="logo">
-                    SK Cinematics
+                    <img src="assets/img/kevin.png"
+                        style="border-radius: 10%; filter: invert(); height: 60px; width: 60px; padding-bottom: 10px; ">
                 </div>
                 <div class="menu">
                     <ul style="font-family: 'Montserrat', sans-serif; letter-spacing: 2px; ">
@@ -40,14 +46,51 @@
                 </div>
             </nav>
         </header>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/1.jpg" style="min-height: 700px;">
-        
+        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/1.jpg">
+            <!-- <img src="assets/img/1.jpg" style="width: 100%; height: 650px"> -->
+            <div style="color: rgba(255, 255, 255, 0.719); font-size: 100px; margin: auto; width: 100%; text-align: center; padding-top: 100px; font-family: 'Kaushan Script', cursive; ">
+                SK Cinematics
+            </div>
         </div>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/2.jpg"></div>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/3.jpg"></div>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/4.jpg"></div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/2.jpg">
+            <div class="textlink">
+                GALLERY
+            </div>
+        </div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/3.jpg">
+            <div class="textlink">
+                STORIES
+            </div>
+        </div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/4.jpg">
+            <div class="textlink">
+                PHOTO PRINTS
+            </div>
+        </div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/1.jpg">
+            <div class="textlink">
+                CONTACT
+            </div>
+        </div>
     </div>
+    <!-- FOR IMAGE SLIDESHOW OF HOMEPAGE  -->
+    <!-- <script>
+        var slideIndex = 0;
+        showSlides();
 
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("parallax-window");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 1000); // Change image every 2 seconds
+        }
+    </script> -->
+    <!-- GENERAL INCLUSIONS  -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

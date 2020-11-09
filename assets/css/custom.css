@@ -132,8 +132,18 @@ width: 100%;
     }
 
 } */
-
+/* ---------------------------------------PARALLAX--------------------------------------- */
 .parallax-window {
-    min-height: 600px;
+    min-height: 650px;
     background: transparent;
+}
+
+.textlink{
+    color: rgba(255, 255, 255, 0.719); 
+    font-size: 90px; 
+    margin: auto; 
+    width: 100%; 
+    padding-left: 150px; 
+    padding-top: 120px; 
+    font-family: 'Montserrat', sans-serif;
 }
