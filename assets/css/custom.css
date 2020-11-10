@@ -138,12 +138,22 @@ width: 100%;
     background: transparent;
 }
 
+
 .textlink{
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.719); 
     font-size: 90px; 
     margin: auto; 
     width: 100%; 
-    padding-left: 150px; 
-    padding-top: 120px; 
+    padding-left: 100px; 
+    padding-top: 100px; 
     font-family: 'Montserrat', sans-serif;
+}
+a.textlink:hover{
+    /* text-decoration: none; */
+    color: rgba(255, 255, 255, 0.719); 
+
+}
+a:hover{
+    text-decoration: none;
 }
