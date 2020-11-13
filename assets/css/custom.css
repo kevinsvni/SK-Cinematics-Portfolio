@@ -1,13 +1,17 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
+
+/* 
 body {
     font-family: "Helvetica Neue",sans-serif;
     font-weight: lighter;
-}
+} */
+
 
 /* header {
     width: 100%;
@@ -60,7 +64,7 @@ nav.black ul {
 
 nav ul li {
     display: inline-block;
-    padding: 8px 12px 20px ;
+    padding: 8px 12px 20px;
     margin-bottom: 14px;
 }
 
@@ -83,21 +87,23 @@ nav ul li a {
 }
 
 .menu a::after {
-content: ' ';
-display: block;
-width: 50%;
-margin-top: -15px;
-border-bottom: 2px solid white;
-transition: width .5s;
-}
-.menu a:hover::after {
-width: 100%;
+    content: ' ';
+    display: block;
+    width: 50%;
+    margin-top: -15px;
+    border-bottom: 2px solid white;
+    transition: width .5s;
 }
 
-.menu a:hover{
+.menu a:hover::after {
+    width: 100%;
+}
+
+.menu a:hover {
     text-decoration: none;
     color: #fff;
 }
+
 
 /* @media(max-width: 786px) {
 
@@ -132,28 +138,31 @@ width: 100%;
     }
 
 } */
+
+
 /* ---------------------------------------PARALLAX--------------------------------------- */
+
 .parallax-window {
     min-height: 650px;
     background: transparent;
 }
 
-
-.textlink{
+.textlink {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.719); 
-    font-size: 90px; 
-    margin: auto; 
-    width: 100%; 
-    padding-left: 100px; 
-    padding-top: 100px; 
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 90px;
+    margin: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 100px;
     font-family: 'Montserrat', sans-serif;
 }
-a.textlink:hover{
-    /* text-decoration: none; */
-    color: rgba(255, 255, 255, 0.719); 
 
+a.textlink:hover {
+    /* text-decoration: none; */
+    color: rgba(255, 255, 255, 0.719);
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
