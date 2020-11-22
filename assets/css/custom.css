@@ -166,3 +166,72 @@ a.textlink:hover {
 a:hover {
     text-decoration: none;
 }
+
+.font-size-75px {
+    font-size: 75px;
+    color: #555555;
+}
+
+.contact-along-logo {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-decoration: none; 
+    color: #555555;
+}
+
+.labels {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-decoration: none; 
+    color: #555555;
+}
+
+.fontFamily-Mont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #555555;
+}
+
+.fontWeight-100{
+    font-weight: 100;
+}
+.fontWeight-200{
+    font-weight: 200;
+}
+.fontWeight-300{
+    font-weight: 300;
+}
+.fontWeight-400{
+    font-weight: 400;
+}
+.fontWeight-500{
+    font-weight: 500;
+}
+.fontWeight-600{
+    font-weight: 600;
+}
+.fontWeight-700{
+    font-weight: 700;
+}
+.fontWeight-800{
+    font-weight: 800;
+}
+
+.contact-submit-btn{
+    border: 2px solid #555555;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    color:  #555555;
+}
+
+.ipfield{
+    width: 480px;
+    border: 2px solid #555555;
+    background-color:#a8a8a811;
+
+}
